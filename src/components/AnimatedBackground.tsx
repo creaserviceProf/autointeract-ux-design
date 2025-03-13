@@ -40,21 +40,14 @@ const AnimatedBackground = () => {
   return (
     <div className="absolute inset-0 z-0 overflow-hidden">
       <div className="absolute inset-0 bg-black/40 z-10"></div>
-      <video 
-        ref={videoRef}
-        autoPlay
-        loop
-        muted
-        playsInline
+      <iframe 
         className="absolute w-full h-full object-cover"
-        poster="https://i.ytimg.com/vi/2Vd1muX2qGU/maxresdefault.jpg"
-      >
-        <source 
-          src="https://www.youtube.com/embed/2Vd1muX2qGU?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1&mute=1"
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video>
+        src="https://www.youtube.com/embed/2Vd1muX2qGU?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1&mute=1&playlist=2Vd1muX2qGU"
+        title="Automotive Background Video"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
     </div>
   );
 };
