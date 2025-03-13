@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import AnimatedBackground from './AnimatedBackground';
@@ -25,7 +26,7 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden py-20">
-      {/* Animated Background */}
+      {/* Video Animated Background */}
       <AnimatedBackground />
 
       {/* Parallax Elements */}
