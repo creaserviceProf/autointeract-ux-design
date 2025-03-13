@@ -18,8 +18,8 @@ const NotFound = () => {
     <div className="min-h-screen flex items-center justify-center bg-background relative overflow-hidden">
       {/* Background effects */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_top_left,rgba(59,130,246,0.1),transparent_40%)]"></div>
-        <div className="absolute bottom-0 right-0 w-full h-full bg-[radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.05),transparent_40%)]"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_top_left,rgba(255,215,0,0.1),transparent_40%)]"></div>
+        <div className="absolute bottom-0 right-0 w-full h-full bg-[radial-gradient(circle_at_bottom_right,rgba(255,215,0,0.05),transparent_40%)]"></div>
       </div>
 
       <div className="container max-w-3xl mx-auto px-6 py-10 relative z-10">
