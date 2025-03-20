@@ -42,7 +42,7 @@ const AnimatedBackground = () => {
       <div className="absolute inset-0 bg-black/40 z-10"></div>
       <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
         <iframe 
-          className="absolute h-full min-w-full w-auto object-cover"
+          className="absolute top-1/2 left-1/2 min-h-full min-w-full -translate-x-1/2 -translate-y-1/2"
           src="https://www.youtube.com/embed/2Vd1muX2qGU?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1&mute=1&playlist=2Vd1muX2qGU"
           title="Automotive Background Video"
           frameBorder="0"
