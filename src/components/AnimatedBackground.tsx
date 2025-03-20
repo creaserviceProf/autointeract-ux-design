@@ -40,14 +40,16 @@ const AnimatedBackground = () => {
   return (
     <div className="absolute inset-0 z-0 overflow-hidden">
       <div className="absolute inset-0 bg-black/40 z-10"></div>
-      <iframe 
-        className="absolute w-full h-full object-cover"
-        src="https://www.youtube.com/embed/2Vd1muX2qGU?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1&mute=1&playlist=2Vd1muX2qGU"
-        title="Automotive Background Video"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
+      <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
+        <iframe 
+          className="absolute h-full min-w-full w-auto object-cover"
+          src="https://www.youtube.com/embed/2Vd1muX2qGU?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1&mute=1&playlist=2Vd1muX2qGU"
+          title="Automotive Background Video"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
   );
 };
