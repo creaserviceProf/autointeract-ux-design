@@ -56,7 +56,7 @@ const Navbar = () => {
     )}>
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#hero" className="text-2xl font-display font-bold tracking-tight text-gradient">
-          DESIGN<span className="text-foreground">CRAFT</span>
+          DESIGN<span className="text-foreground">Portfolio</span>
         </a>
         
         {/* Desktop Navigation */}
